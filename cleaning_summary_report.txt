@@ -1,0 +1,47 @@
+
+SUPERSTORE DATASET CLEANING SUMMARY
+Generated on: 2025-06-25 06:29:09
+
+ORIGINAL DATASET:
+- Shape: (9994, 21)
+- Missing Values: 0
+- Duplicate Rows: 0
+
+CLEANED DATASET:
+- Shape: (9994, 21)
+- Missing Values: 0
+- Duplicate Rows: 0
+
+CLEANING ACTIONS PERFORMED:
+1. Column names standardized: 21 columns renamed
+2. Removed 0 duplicate rows
+3. Converted order_date to datetime format
+4. Converted ship_date to datetime format
+
+DATA QUALITY IMPROVEMENTS:
+- Rows processed: 9,994
+- Final rows: 9,994
+- Data quality score: 4.8%
+
+COLUMN SUMMARY:
+- row_id: int64
+- order_id: object (5009 unique values)
+- order_date: datetime64[ns]
+- ship_date: datetime64[ns]
+- ship_mode: object (4 unique values)
+- customer_id: object (793 unique values)
+- customer_name: object (793 unique values)
+- segment: object (3 unique values)
+- country: object (1 unique values)
+- city: object (531 unique values)
+- state: object (49 unique values)
+- postal_code: int64
+- region: object (4 unique values)
+- product_id: object (1862 unique values)
+- category: object (3 unique values)
+- sub_category: object (17 unique values)
+- product_name: object (1850 unique values)
+- sales: float64
+- quantity: int64
+- discount: float64
+- profit: float64
